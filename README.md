@@ -1,5 +1,5 @@
 # Cloud-Computing-application
-## Online Library App implemented by node.js
+## 1. Online Library App implemented by node.js
 #### Installation (Nodejs)
 ```bash
 wget -qO- https://deb.nodesource.com/setup_10.x | sudo -E bash -
@@ -16,7 +16,7 @@ npm install
 sudo node server.js
 ```
 
-## Application Deployment Using Docker
+## 2. Application Deployment Using Docker
 #### Install Docker
 Docker Installation (use this official steps only): https://docs.docker.com/install/linux/docker-ce/ubuntu/  
 Docker Compose Installation: https://docs.docker.com/compose/install/#prerequisites  
@@ -35,3 +35,8 @@ sudo docker-compose push
 # ５. Run the application using docker-compose
 sudo docker-compose up
 ```
+
+## 3. Product Query Service implemented by Seneca.js
+#### Microservice Architecture of the application
+<a href="url">![image](https://user-images.githubusercontent.com/47914159/129452742-5cabeb68-f697-4465-8540-72583f4870e3.png width="200" height="200")</a>
+
