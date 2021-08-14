@@ -38,7 +38,7 @@ sudo docker-compose up
 
 ## 3. Product Query Service implemented by Seneca.js
 #### Microservice Architecture of the application
-<a href="url"><img src="https://user-images.githubusercontent.com/47914159/129452742-5cabeb68-f697-4465-8540-72583f4870e3.png" align="left" height="300" width="300"></a>
+<a href="url"><img src="https://user-images.githubusercontent.com/47914159/129452742-5cabeb68-f697-4465-8540-72583f4870e3.png" height="300" width="300"></a>
 
 
 
@@ -140,10 +140,10 @@ kubectl scale deployment <deployment_name> --replicas=<replicaNumber>
 
 #### Deleting the Restting the Cluster
 ```bash
-1. To delete the service and deployment you can run the following command:
+# To delete the service and deployment you can run the following command:
 kubectl delete service,deployment <deployment_Name>
-2. Reset all kubeadm installed state, run the following command on master
+# Reset all kubeadm installed state, run the following command on master
 kubeadm reset
-3. Delete the configuration file
+# Delete the configuration file
 sudo rm -r $HOME/.kube/config
 ```
