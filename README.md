@@ -38,5 +38,5 @@ sudo docker-compose up
 
 ## 3. Product Query Service implemented by Seneca.js
 #### Microservice Architecture of the application
-<a href="url">![image](https://user-images.githubusercontent.com/47914159/129452742-5cabeb68-f697-4465-8540-72583f4870e3.png width="200" height="200")</a>
+<a href="url"><img src="https://user-images.githubusercontent.com/47914159/129452742-5cabeb68-f697-4465-8540-72583f4870e3.png" align="left" height="200" width="200"></a>
 
